@@ -10,12 +10,12 @@ import {UFs} from './services/mock-ufs'
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  templateUrl: './todosOsDados.component.html',
   styleUrls: ['./app.component.css'],
   providers: [UFService, SamuService]
 })
 
-export class AppComponent implements OnInit {
+export class todosOsDadosComponent implements OnInit {
     ufs : UF[];
     dados_da_samu : Dados[];
     minha_uf: UF;
